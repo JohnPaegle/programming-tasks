@@ -2,7 +2,7 @@ package io.codelex.testingtasks.tasks;
 
 public class StrSymmetryPoint {
     
-    public static int solution(String s) {
+    public int solution(String s) {
         if ((s.length() & 1) == 0) {
             return -1;
         }
